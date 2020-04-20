@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <!-- Title of my web page -->
+    <title> My Online CV</title>
+  
+    <!--For the responsiveness of the website-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <!-- Linking my style sheet with the pages -->
+    <link rel="Stylesheet" href="Style.css" type="text/css">
+  </head>
+
+<body>
+  
+  <!-- The navigation menu -->
+  <div class="navbar">
+    <a href="#home">Home</a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  
+
+  <div class="main" id="HomeSection">
+    <h1>ASIPHE BOKOLO</h1>
+    <img src="Asiphe.png">
+    <h2>Web Developer</h2>
+  
+      <br>
+
+    
+      <a class="btnAbout" href="#AboutSection">Learn More About Me</a>
+   
+  </div>
+      <br><br>
+
+  <!--ABOUT ME SECTION-->
+  <div class="main" id="AboutSection">
+    <img src="Bokolo.png">
+    
+    <h2><b><u>Professional Summary</u></b></h2>
+    <p>
+      I am a hard worker who is passionate about her work.<br>
+      Because I love what I do, I have a steady source of motivation that drives me to do my best.I am an ambitious and driven young lady.<br>
+      I thrive on challenge and constantly set goals for myself, so I have something to strive towards.<br>
+      I’m not comfortable with settling, and I’m always looking for an opportunity to do better and achieve greatness.<br>
+      <br> 
+      I am on an entry-level of tech world but I am working hard to be the best on what I do. My love for technology began 3 years back and I never looked back.
+    </p>
+
+    <button class="button Education"><a href="Education.html">Education</a></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="button Skills"><a href="Skills.html">Skills</a></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="button Experience"><a href="workExperience.html">Experience</a></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="button Projects"><a href="Projects.html">Projects</a></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br><br>
+    <p>Click on the image below to download my full CV:</p>
+    <a href="ASIPHE_BOKOLO.docx" download>
+      <img class="CV"src="CV.png">
+    </a>
+        <br><br><br><br><br>
+      <a href="#HomeSection">Home</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="#ContactSection">Contact Me</a>
+
+    </div>
+
+          <!--CONTACT ME SECTION-->
+          <div class="main" id="ContactSection">
+            <h1>ASIPHE BOKOLO</h1>
+            <img src="Asiphe.png">
+            <h2>Web Developer</h2>
+          
+              <br>
+        
+              <a href="#HomeSection">Home</a>
+              <a href="#AboutSection">Learn More About Me</a>
+           
+          </div>
+      
+       
+          <script>
+            // When the user scrolls down 20px from the top of the document, slide down the navbar
+            // When the user scrolls to the top of the page, slide up the navbar (50px out of the top view)
+          window.onscroll = function() {scrollFunction()};
+
+          function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("navbar").style.top = "0";
+          } else {
+          document.getElementById("navbar").style.top = "-50px";
+         }
+        }
+          </script>
+
+</body>
+</html>

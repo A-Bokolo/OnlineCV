@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <!-- Title of my web page -->
+    <title> My Online CV</title>
+  
+    <!--For the responsiveness of the website-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+  
+    <!-- Linking my style sheet with the pages -->
+    <link rel="Stylesheet" href="Style.css"type="text/css">
+  </head>
+
+<body>
+
+  <!-- The navigation menu -->
+  <div class="navbar">
+    <a href="Portfolio.html">Home</a>
+    <a class="active" href="Portfolio.html">About</a>
+    <a href="Portfolio.html">Contact</a>
+  </div>
+
+  <br><br><br>
+
+  <!--Link buttons-->
+  <button class="button Education"><a href="Education.html">Education</a></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <button class="button Skills"><a class="active" href="Skills.html">Skills</a></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <button class="button Experience"><a href="WorkExperience.html">Experience</a></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <button class="button Projects"><a href="Projects.html">Projects</a></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+  <br><br><br>
+
+  <!--Divider/Flexbox used to separate the skills icon and the content-->
+  <div class="flex-container2">
+    <!--Skills icon-->
+    <img src="SkillsImg.jpeg">
+
+    <!--Divider for the content-->
+    <div>
+      <!--Heading-->
+      <h3><b><u>MY SKILLS</u></b></h3>
+      <!--I used the skills bar to rate my knowledge on the programming languages that I am familiar with-->
+      <div class="text">
+        <!--Below are the programming languages-->
+        <p>HTML</p>
+        <div class="container">
+          <div class="skills html">90%</div>
+        </div>
+
+        <p>CSS</p>
+        <div class="container">
+          <div class="skills css">80%</div>
+        </div>
+
+        <p>JavaScript</p>
+          <div class="container">
+            <div class="skills js">65%</div>
+          </div>
+      </div> 
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <p>
+      <b>Copyright 2020 Asiphe Bokolo</b>
+      <br>
+      <i>All Rights Reserved</i>
+    </p>
+  </div>
+
+</body>
+</html>
